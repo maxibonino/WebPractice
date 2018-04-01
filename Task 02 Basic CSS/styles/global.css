@@ -1,0 +1,137 @@
+header {
+	display: table-cell;
+	height: 100px;
+	width: 1000px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.logoimg {
+	width: 200px;
+    height: 70px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menulist {
+	text-align: right;
+	display: inline-block;
+	margin-left: 250px;
+	margin-right: 0px;
+}
+
+.footermenubar {
+	display: inline-block;
+	font-size: .9em;
+	margin: 0px;
+	padding: 0px;
+}
+.footermenubar ul {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	border:none;
+}
+
+.footermenubar li{
+	display: inline;
+	padding-right: 5px;
+	padding-left: 2px;
+	margin: 0px;
+	border-right: 1px solid #333843;
+	color: #333843 !important;
+	font-size: .9em;
+	font-weight: bold;
+}
+.footermenubar li:first-child{
+	color: pink !important;
+}
+
+.footermenubar li:last-child {
+	border-right: none;
+}
+
+.footermenubar p {
+	display: inline-block;
+	margin-left: 209px;
+	text-align: right;
+}
+
+footer {
+	text-align: left;
+}
+
+main {
+	padding: 0px;
+	margin-left: 15px;
+	display: inline-block;
+	border: 0px solid red;
+	width: 785px;
+}
+
+body {
+    margin: auto;
+	margin-top: 15px;
+    background-color: #cadae6;
+    width: 1000px;
+}
+
+th {
+    background-color: #5ea1d1;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #0360a3;
+    font-family: sans-serif;
+}
+
+td {
+    border: 1px solid #0360a3;
+    text-align: center;
+    font-family: sans-serif;
+	color: #333333;
+}
+
+table {
+    border: 1px solid #0360a3;
+    border-collapse: collapse;
+}
+
+p {
+    font-family: sans-serif;
+	color: #333333;
+	width: 100%;
+}
+
+table {
+	width:100%;
+}
+
+tr {
+	height: 25px;
+	width: 100%;
+}
+
+th {
+	color: #333333;
+}
+
+a[href="https://www.microsoft.com/ru-ru/"] {
+	font-weight: bold;
+}
+
+.contentlink {
+	text-decoration: none;
+	color: #dea0de;
+}
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.footermenubar a:hover {
+	color: #dea0de;
+}
+
+.menulist a:hover {
+	color: #dea0de;
+}

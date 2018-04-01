@@ -1,0 +1,106 @@
+.menulist li{
+    display: inline;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.menulist a {
+	display: inline-block;
+	font-size: .9em;
+	color: #333333;
+	font-family: sans-serif;
+}
+
+aside {
+	display: inline-block;
+	width: 200px;
+	padding-left: 0px;
+	float: left;
+	height: 100%;
+}
+
+#menu {
+	margin: 0px;
+	width: 200px;
+	padding: 0px;
+	margin-right: 100px;
+	color: #333333;
+}
+
+#menu a {
+	display: table-cell;
+	width: 200px;
+	height: 32px;
+	vertical-align: middle;
+	padding-left: 7px;
+	border-bottom: 1px solid #94c0e0;
+}
+
+
+#menu li {
+	height: 32px;
+    list-style-type: none;
+	font-family: sans-serif;
+	color: white;
+}
+
+#menu a:hover {
+    background: #94c0e0;
+	color:purple;
+}
+
+#menu a:active {
+	background: #6ba7d3;
+}
+
+#menu a:link {
+	text-decoration: none;
+}
+
+#menu a:visited {
+	color: black;
+}
+
+.browsers li {
+	color: red;
+	font-family: sans-serif;
+	font-style: italic;
+}
+.browsers li:nth-child(2) {
+	color: green;
+}
+
+.browsers li:last-child {
+	color: grey;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-style: italic;
+}
+
+.browsers ul li:first-child {
+	text-decoration: underline;
+	color: blue;
+	font-style: italic;
+}
+
+.browsers ul li:first-child {
+	text-decoration: underline;
+	color: blue;
+	font-style: italic;
+}
+
+.browsers ul li:nth-child(2) {
+	text-decoration: underline;
+	font-style: normal;
+	color: purple;
+}
+
+.browsers ul li:last-child {
+	color: #f6d700;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.sublist {
+	list-style-type: none;
+}
