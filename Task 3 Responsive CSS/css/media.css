@@ -1,0 +1,195 @@
+/*tablet version*/
+@media screen and (min-width: 768px) {
+
+    .header-but-div{
+        display: none;
+    }
+    /*invisible blocks ^ */
+
+    body{
+        min-width: 768px;
+    }
+
+    .header-links {
+        display: inline-block;
+    }
+	
+	.header-but-size{
+    display: none;
+	}
+
+    .link {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px;
+    }
+
+    .link-text {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+
+    .tablet-search {
+        display: table;
+        width: 130px;
+        height: 25px;
+    }
+
+	
+    .header-avatar {
+        display: table;
+        border-radius: 50%;
+        height: 30px;
+    }
+
+    .user-name-div {
+        display: table;
+        float: right;
+        margin-top: 10px;
+    }
+
+    .header-img {
+        float: right;
+        display: table;
+    }
+
+    .search-but {
+        display: table;
+        float: right;
+    }
+
+    .header-but {
+        height: 25px;
+        margin-top: 2px;
+    }
+
+    .search-input {
+        display: table;
+        float: right;
+    }
+
+    .user-name {
+        color: #ffffff;
+    }
+
+
+    .gallery {
+        float: left;
+        width: 65%;
+        margin-left: 10px;
+    }
+
+    .sign-in-div-position {
+        float: right;
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    .gallery-img {
+        display: inline-block;
+        width: 30%;
+        height: 220px;
+    }
+
+    .post-img {
+        padding: 5px;
+        width: 50%;
+    }
+
+    .post-elem {
+        display: inline-block;
+    }
+
+    .article-header {
+        vertical-align: top;
+        float: right;
+        padding-top: 110px;
+        padding-right: 10px;
+    }
+
+    .foot-but-div {
+        width: 15%;
+    }
+
+    .foot-div {
+        padding-left: 20%;
+    }
+
+    .footer-elem {
+        display: inline-block;
+        text-align: justify;
+        width: 15%;
+        margin: auto;
+    }
+
+    .footer-ul {
+        width: 100%;
+    }
+
+}
+
+/*desktop version*/
+@media screen and (min-width: 993px) {
+
+    .search-input-view {
+        display: none;
+    }
+
+    body {
+        min-width: 993px;
+    }
+
+    .header-links {
+        display: inline-block;
+    }
+
+    .link {
+        padding-right: 5px;
+    }
+
+	
+	.desktop-place {
+        display: inline-block;
+    }
+
+	.aside-header {
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+        padding-left: 45px;
+    }
+
+    .aside-header-links {
+        margin-left: 40%;
+    }
+	
+	.gallery {
+		width: 50%;
+	}
+	
+	.sign-in-div-position {
+        width: 28%;
+		margin-right: 0px;
+    }
+	
+	.left-link {
+        color: #6495ed;
+    }
+	
+    .menu {
+        display: table;
+        width: 20%;
+        float: left;
+        margin-top: 5px;
+    }
+	
+    .links {
+        padding: 10px;
+    }
+	
+	.post-div {
+    width: 45%;
+    margin-top: 10px;
+	display:inline-block;
+}	
+}
