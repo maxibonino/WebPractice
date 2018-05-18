@@ -188,8 +188,16 @@
     }
 	
 	.post-div {
-    width: 45%;
-    margin-top: 10px;
-	display:inline-block;
-}	
+		
+		width: 45%;
+		margin-top: 10px;
+		display:inline-block;
+}
+	.first-box{
+		margin-left: 0px;
+	}
+	.second-box{
+		margin-left: 90px;
+		margin-right: 0px;
+	}
 }
