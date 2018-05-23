@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Basics</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>JS Basics</h1>
+    <p>Count Numbers</p>
+    <input type="text" id="countText"><button onclick="count()">Count</button>
+    <p>Delete Repeated</p>
+    <input style="
+    padding-bottom: 70px;
+    border-right-width: 2px;
+    padding-right: 70px;
+    margin-right: 10px;" type="text"  id="delete"><button onclick="deleteRepeats()">Delete</button>
+    <p>Count Numbers</p>
+    <form action="javascript:DateParse()">
+    <input type="text" value="2015"  pattern="^[1-9][0-9]{3}$" maxlength="4" id = "year" placeholder="Year">
+    <input type="text" value="02" pattern="[0-9]{2,}" maxlength="2" id="day" placeholder="Month">
+    <input type="text" value="04" pattern="[0-9]{2,}" maxlength="2" id="month" placeholder="Day">
+    <input type="text" value="05" pattern="[0-9]{2,}" maxlength="2" id="hour" placeholder="Hour">
+    <input type="text" value="07" pattern="[0-9]{2,}" maxlength="2" id="min" placeholder="Minute">
+    <input type="text" value="08" pattern="[0-9]{2,}" maxlength="2" id="sec" placeholder="Second">
+    <input type="text" id ="mask" placeholder="Enter mask">
+    <input type="submit" id="replace">
+    </form>
+</body>
+</html>
